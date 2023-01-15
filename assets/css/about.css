@@ -44,3 +44,9 @@ header h1 {
 main {
   margin-bottom: 50px;
 }
+
+.centerImage {
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
