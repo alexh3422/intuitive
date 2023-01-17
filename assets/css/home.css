@@ -1,25 +1,22 @@
 header {
-  display: flex;
   background: #333;
-  padding: 40px;
+  padding: 20px;
+  text-align: center;
 }
 
+/* .headerMenu {
+      float: left;
+    } */
+
 header h1 {
+  font-family: Audiowide;
   color: #71db77;
   font-size: 36px;
   font-weight: bold;
 }
 
-.headerTitle {
-  text-align: center;
-  margin-left: 200px;
-}
-
-.headermenu {
-  float: left;
-}
-
 .pageTitle {
+  font-family: Roboto;
   color: black;
   font-size: 36px;
   font-weight: bold;
@@ -55,10 +52,16 @@ header h1 {
 }
 
 .contentTitle {
+  font-family: Roboto;
   color: black;
   font-size: 36px;
   font-weight: bold;
   text-decoration: none;
   margin: 0 auto;
   text-align: center;
+}
+
+.main {
+  width: 100%;
+  margin-bottom: 50px;
 }
