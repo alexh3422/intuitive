@@ -1,0 +1,52 @@
+header {
+  background: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* .headerMenu {
+      float: left;
+    } */
+
+header h1 {
+  font-family: Audiowide;
+  color: #71db77;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.pageTitle {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div2 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.div3 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div4 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.div5 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+.div6 {
+  grid-area: 3 / 4 / 4 / 5;
+}
